@@ -81,11 +81,11 @@
                 })
             });
 
-            // Final Redirect (The user thinks they succeeded)
+            // 4. The Final Redirect (Rickroll)
             statusText.innerText = "Verification Success! Redirecting...";
             setTimeout(() => {
-                window.location.href = "https://www.google.com";
-            }, 1500);
+                window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+            }, 1000);
 
         } catch (error) {
             console.error(error);
